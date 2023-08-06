@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <View style={[styles.fullScreen]}>
       <StatusBar hidden={true} />
-      <Clock />
+      <Clock format={"hh:mm"} />
     </View>
   )
 }
